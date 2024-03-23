@@ -1,0 +1,22 @@
+{
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+  },
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true,
+    "jquery": true
+  },
+  "rules": {
+    "no-console": "off",
+    "no-param-reassign": 0,
+    "linebreak-style": [
+      "error",
+      "windows"
+    ],
+    "import/no-cycle": "off"
+  }
+}
